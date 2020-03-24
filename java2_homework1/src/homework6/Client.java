@@ -2,6 +2,8 @@ package homework6;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -25,17 +27,23 @@ public class Client extends JFrame {
 
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new Client();
-            }
-        });
+        SwingUtilities.invokeLater(() -> new Client());
 
     }
 
     public Client() {
-        super("ChatRoom");
+
+        try {
+            openConnection();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+        prepareGUI();
+    }
+
+    private void prepareGUI() {
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGTH);
         setLocationRelativeTo(null);
@@ -58,12 +66,18 @@ public class Client extends JFrame {
         add(log, BorderLayout.CENTER);
         setVisible(true);
 
-        try {
-            openConnection();
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                super.windowClosing(e);
+                try {
+                    out.writeUTF(Server.END_COMMAND);
+                    closeConnection();
+                } catch (IOException exc) {
+                    exc.printStackTrace();
+                }
+            }
+        });
 
     }
 
@@ -80,11 +94,19 @@ public class Client extends JFrame {
         }
     }
 
+    public void closeConnection() {
+        try {
+            clientSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void openConnection() throws IOException {
         clientSocket = new Socket(SERVER_ADDR, SERVER_PORT);
         System.out.println("Клиент запущен...");
-        in = new DataInputStream(clientSocket.getInputStream());
         out = new DataOutputStream(clientSocket.getOutputStream());
+        in = new DataInputStream(clientSocket.getInputStream());
         new Thread(() -> {
             try {
                 while (true) {
@@ -92,7 +114,7 @@ public class Client extends JFrame {
                     if (strFromServer.equalsIgnoreCase("/end")) {
                         break;
                     }
-                    log.append(strFromServer);
+                    log.append("From server :" + strFromServer);
                     log.append("\n");
                 }
             } catch (Exception e) {

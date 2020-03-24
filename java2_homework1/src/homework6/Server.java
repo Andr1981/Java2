@@ -17,11 +17,10 @@ public class Server {
         try {
             serverSocket = new ServerSocket(8188, 1);
             System.out.println("Сервер запущен, ожидаем подключения...");
-            boolean flag = true;
-            while (flag) {
+
                 clientSocket = serverSocket.accept();
                 System.out.println("Клиент подключился");
-            }
+
             DataInputStream in = new DataInputStream(clientSocket.getInputStream());
             DataOutputStream out = new DataOutputStream(clientSocket.getOutputStream());
             inputThread = runInputThread(in);
@@ -39,9 +38,9 @@ public class Server {
     private static void runOtputLoop(DataOutputStream out) throws IOException {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            String msg = scanner.next();
+            String msg = scanner.nextLine();
             out.writeUTF(msg);
-            if (msg.equals("/end")) {
+            if (msg.equals(END_COMMAND)) {
                 break;
             }
         }
