@@ -1,6 +1,6 @@
 package homework7.server.auth;
 
-public interface AuthServise {
+public interface AuthService {
     String getUsernameByLoginAndPassword(String login, String password);
 
     void start();
