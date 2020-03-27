@@ -38,7 +38,7 @@ public class ClientHandler {
                 } finally {
                     closeConnection();
                 }
-            });
+            }).start();
 
         } catch (IOException e) {
             e.printStackTrace();

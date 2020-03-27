@@ -48,6 +48,8 @@ public class NetworkService {
                     }
                 } catch (IOException e) {
                     System.out.println("Поток чтения был прерван!");
+                    e.printStackTrace();
+                    e.getCause();
                     return;
                 }
             }
