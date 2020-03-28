@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96239029-df26-4b19-8797-3b05bcb262ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,8 +35,34 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ServerApp">
-    <configuration name="NetworkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.NetworkClient">
+    <configuration name="NetworkClient 2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
+      <module name="NetworkClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework7.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkClient 3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
+      <module name="NetworkClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework7.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkClient" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <extension name="coverage">
@@ -52,10 +88,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.NetworkClient 2" />
+      <item itemvalue="Application.NetworkClient 3" />
+      <item itemvalue="Application.NetworkClient" />
+      <item itemvalue="Application.ServerApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.NetworkClient" />
+        <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -85,55 +127,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585309769380">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585386937107">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585309769380" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585309769379">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386937107" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585383582014">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585309769379" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585309769379">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585383582014" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585390031526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585309769379" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585309769379">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585390031526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585309769379" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585309769375">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585390031526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585309769375" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585309769375">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585390031526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585309769375" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585309769375">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585337150377">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585309769375" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585309769375">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585337150377">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585309769375" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585337150377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585337150377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
+    <state x="521" y="135" key="UIDesigner.ListEditorDialog" timestamp="1585386239844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="521" y="135" key="UIDesigner.ListEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386239844" />
     <state x="218" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585308212660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="218" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1585308212660" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1585388918741">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585388918741" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="10" />
+          <line>81</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

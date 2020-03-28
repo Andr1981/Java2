@@ -20,14 +20,15 @@ public class ClientHandler {
         this.networkServer = networkServer;
         this.clientSocket = socket;
     }
+
     public void run() {
         doHandle(clientSocket);
     }
 
     private void doHandle(Socket socket) {
         try {
-            in = new DataInputStream(socket.getInputStream());
             out = new DataOutputStream(socket.getOutputStream());
+            in = new DataInputStream(socket.getInputStream());
 
             new Thread(() -> {
                 try {
@@ -61,7 +62,12 @@ public class ClientHandler {
             System.out.printf("От %s : %s%n", nickname, message);
             if ("/end".equals(message)) {
                 return;
-            }
+            } else if (message.startsWith("/w")) {
+                String[] messageParts = message.split("\\s+", 3);
+                String receiver = messageParts[1];
+                String text = messageParts[2];
+                networkServer.sendMessage(receiver, nickname + ": " + text);
+            } else
             networkServer.broadcastMessage(nickname + " : " + message, this);
         }
     }
@@ -79,7 +85,7 @@ public class ClientHandler {
                     sendMessage("Отсутствует учетная запись по логину и паролю!");
                 } else {
                     nickname = username;
-                    networkServer.broadcastMessage(nickname + " Зашел в чат",this);
+                    networkServer.broadcastMessage(nickname + " Зашел в чат", this);
                     sendMessage("/auth " + nickname);
                     networkServer.subscribe(this);
                     break;
@@ -92,5 +98,9 @@ public class ClientHandler {
 
     public void sendMessage(String message) throws IOException {
         out.writeUTF(message);
+    }
+
+    public String getNickname() {
+        return nickname;
     }
 }

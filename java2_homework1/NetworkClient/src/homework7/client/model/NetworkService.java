@@ -40,7 +40,7 @@ public class NetworkService {
                 try {
                     String message = in.readUTF();
                     if (message.startsWith("/auth")) {
-                        String[] messageParts = message.split("\\s+", 2);
+                        String[] messageParts = message.split("\\s+", 3);
                         nickname = messageParts[1];
                         successfulAuthEvent.authIsSuccessful(nickname);
                     } else if (messageHandler != null) {
@@ -57,7 +57,7 @@ public class NetworkService {
     }
 
     public void sendAuthMessage(String login, String password) throws IOException {
-        out.writeUTF(String.format("/auth %s%s", login, password));
+        out.writeUTF(String.format("/auth %s %s", login, password));
     }
     public void sendMessage(String message) throws IOException {
         out.writeUTF(message);

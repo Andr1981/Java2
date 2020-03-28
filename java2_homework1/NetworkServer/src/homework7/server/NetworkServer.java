@@ -65,4 +65,13 @@ public class NetworkServer {
     public synchronized void unsubscribe(ClientHandler clientHundler) {
         clients.remove(clientHundler);
     }
+
+    public synchronized void sendMessage(String receiver, String message) throws IOException {
+        for (ClientHandler client : clients){
+            if(client.getNickname().equals(receiver)){
+                client.sendMessage(message);
+                break;
+            }
+        }
+    }
 }

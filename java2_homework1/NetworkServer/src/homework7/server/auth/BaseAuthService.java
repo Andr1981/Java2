@@ -19,7 +19,7 @@ public class BaseAuthService implements AuthService {
     }
 
     private static final List<UserData> USER_DATA = List.of(
-            new UserData("log1", "pass1", "user1"),
+            new UserData("log1","pass1","user1"),
             new UserData("log2", "pass2", "user2"),
             new UserData("log3", "pass3", "user3")
 

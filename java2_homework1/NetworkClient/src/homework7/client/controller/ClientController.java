@@ -7,6 +7,7 @@ import homework7.client.view.ClientChat;
 
 import javax.swing.*;
 import java.io.IOException;
+import java.util.List;
 
 public class ClientController {
     private final NetworkService networkService;
@@ -75,7 +76,8 @@ public class ClientController {
         return nickname;
     }
 
-    public void sendPrivateMessage(String username, String message){
-        sendMessage(String.format("/w %s%s",username,message));
+    public void sendPrivateMessage(String username, String message) {
+        sendMessage(String.format("/w %s %s", username, message));
     }
+
 }
