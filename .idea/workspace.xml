@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96239029-df26-4b19-8797-3b05bcb262ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/BroadcastMessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/ErrorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/MessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/PrivateMessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/UpdateUsersListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -27,8 +45,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.NetworkClient 3">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework8.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NetworkClient">
     <configuration name="NetworkClient 2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
@@ -120,46 +146,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1585478243916">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585478243916" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585386937107">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386937107" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585383582014">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585480915214">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585383582014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585391216420">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585480915214" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585391216420">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585391216420">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585391216420">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585486312754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585486312754" />
+    <state x="456" y="274" key="ReplaceDuplicatesPrompt" timestamp="1585471866435">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="456" y="274" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1585471866435" />
     <state x="521" y="135" key="UIDesigner.ListEditorDialog" timestamp="1585386239844">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -168,6 +202,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="218" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1585308212660" />
+    <state x="371" y="110" width="538" height="498" key="extract.method.dialog" timestamp="1585471832731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="110" width="538" height="498" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1585471832731" />
+    <state x="91" y="0" key="new project wizard" timestamp="1585464841878">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1585464841878" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585475968448">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1585475968448" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1585388918741">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -176,10 +222,37 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java</url>
+          <line>58</line>
+          <properties class="homework7.client.controller.ClientController" method="sendAuthMessage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java</url>
+          <line>106</line>
+          <properties class="homework7.server.client.ClientHandler" method="authentication">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="17" />
+          <line>113</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java</url>
+          <line>6</line>
+          <properties field="username" class="homework8.client.command.AuthCommand" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

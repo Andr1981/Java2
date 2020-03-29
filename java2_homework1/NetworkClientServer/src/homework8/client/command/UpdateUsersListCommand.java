@@ -1,0 +1,15 @@
+package homework8.client.command;
+
+import java.util.List;
+
+public class UpdateUsersListCommand {
+    private final List<String> users;
+
+    public UpdateUsersListCommand(List<String> users) {
+        this.users = users;
+    }
+
+    public List<String> getUsers() {
+        return users;
+    }
+}

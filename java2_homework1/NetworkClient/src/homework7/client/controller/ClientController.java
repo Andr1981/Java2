@@ -4,6 +4,7 @@ package homework7.client.controller;
 import homework7.client.model.NetworkService;
 import homework7.client.view.AuthDialog;
 import homework7.client.view.ClientChat;
+import homework8.client.Command;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -16,7 +17,7 @@ public class ClientController {
     private String nickname;
 
     public ClientController(String serverHost, int serverPort) {
-        this.networkService = new NetworkService(serverHost, serverPort);
+        this.networkService = new NetworkService(serverHost, serverPort,this);
         this.authDialog = new AuthDialog(this);
         this.clientChat = new ClientChat(this);
     }
@@ -56,12 +57,12 @@ public class ClientController {
     }
 
     public void sendAuthMessage(String login, String pass) throws IOException {
-        networkService.sendAuthMessage(login, pass);
+        networkService.sendCommand(Command.authCommand(login, pass));
     }
 
-    public void sendMessage(String message) {
+    public void sendMessageToAllUsers(String message) {
         try {
-            networkService.sendMessage(message);
+            networkService.sendCommand(Command.broadcastMessageCommand(message));
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "Failed to send message!");
             e.printStackTrace();
@@ -77,7 +78,26 @@ public class ClientController {
     }
 
     public void sendPrivateMessage(String username, String message) {
-        sendMessage(String.format("/w %s %s", username, message));
+        try {
+            networkService.sendCommand(Command.privateMessageCommand(username, message));
+        } catch (IOException e) {
+            showErrorMessage(e.getMessage());
+        }
     }
 
+    public void showErrorMessage(String errorMessage) {
+        if (clientChat.isActive()) {
+            clientChat.showError(errorMessage);
+        }
+        else if (authDialog.isActive()) {
+            authDialog.showError(errorMessage);
+        }
+        System.err.println(errorMessage);
+    }
+
+    public void updateUsersList(List<String> users) {
+        users.remove(nickname);
+        users.add(0, "All");
+        clientChat.updateUsers(users);
+    }
 }
