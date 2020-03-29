@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96239029-df26-4b19-8797-3b05bcb262ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NetworkClient">
+  <component name="RunManager" selected="Application.NetworkClient 3">
     <configuration name="NetworkClient 2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
@@ -135,22 +128,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585383582014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585390031526">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585391216420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585390031526">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585391216420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585390031526">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585391216420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585390031526">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585391216420">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585390031526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585337150377">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
