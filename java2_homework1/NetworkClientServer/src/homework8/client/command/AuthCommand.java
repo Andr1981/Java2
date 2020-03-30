@@ -1,6 +1,8 @@
 package homework8.client.command;
 
-public class AuthCommand {
+import java.io.Serializable;
+
+public class AuthCommand implements Serializable {
     private final String login;
     private final String password;
 

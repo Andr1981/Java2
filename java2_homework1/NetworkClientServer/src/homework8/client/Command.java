@@ -2,9 +2,10 @@ package homework8.client;
 
 import homework8.client.command.*;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Command {
+public class Command implements Serializable {
     private CommandType type;
 
     private Object data;

@@ -1,6 +1,8 @@
 package homework8.client.command;
 
-public class ErrorCommand {
+import java.io.Serializable;
+
+public class ErrorCommand implements Serializable {
     private final String errorMessage;
 
     public ErrorCommand(String errorMessage) {

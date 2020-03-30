@@ -11,6 +11,8 @@ import java.io.*;
 import java.net.Socket;
 
 public class ClientHandler {
+    private static final int TIMEOUT = 120;
+
     private final NetworkServer networkServer;
     private final Socket clientSocket;
 
@@ -44,10 +46,28 @@ public class ClientHandler {
                     closeConnection();
                 }
             }).start();
+            new Thread(()->{
+                try {
+                    closeByTimeout();
+                } catch (InterruptedException e) {
+                    System.out.println("Ошибка с отсчетом таймаута");
+                } catch (IOException e) {
+                    System.out.println("Соединение с клиентом " + nickname + " было закрыто!");
+                }
+            }).start();
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private void closeByTimeout() throws IOException, InterruptedException {
+        Thread.currentThread().sleep(TIMEOUT*1000);
+        if (nickname == null){
+            sendMessage(Command.authErrorCommand("Истекло время ожидания. Соединение закрыто!"));
+            closeConnection();
+        }
+        return;
     }
 
     private void closeConnection() {

@@ -1,6 +1,8 @@
 package homework8.client.command;
 
-public class PrivateMessageCommand {
+import java.io.Serializable;
+
+public class PrivateMessageCommand implements Serializable {
     private final String receiver;
     private final String message;
 

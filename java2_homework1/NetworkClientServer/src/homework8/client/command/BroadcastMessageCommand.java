@@ -1,6 +1,8 @@
 package homework8.client.command;
 
-public class BroadcastMessageCommand {
+import java.io.Serializable;
+
+public class BroadcastMessageCommand implements Serializable {
     private final String message;
 
     public BroadcastMessageCommand(String message) {
