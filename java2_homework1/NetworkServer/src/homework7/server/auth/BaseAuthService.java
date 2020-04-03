@@ -1,38 +1,49 @@
 package homework7.server.auth;
 
+import java.sql.*;
 import java.util.List;
 import java.util.Objects;
 
 public class BaseAuthService implements AuthService {
 
-    private static class UserData {
-        private String login;
-        private String password;
-        private String username;
+    private static Connection connection;
+    private static final String USERDATA_DATABASE = "usersChat.db";
 
-        public UserData(String login, String password, String username) {
-            this.login = login;
-            this.password = password;
-            this.username = username;
+    public static void connect() throws SQLException {
+        try {
+            Class.forName("org.sqlite.JDBC");
+            connection = DriverManager.getConnection("jdbc:sqlite:" + USERDATA_DATABASE);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
-
     }
 
-    private static final List<UserData> USER_DATA = List.of(
-            new UserData("log1","pass1","user1"),
-            new UserData("log2", "pass2", "user2"),
-            new UserData("log3", "pass3", "user3")
-
-    );
-
     @Override
-    public String getUsernameByLoginAndPassword(String login, String password) {
-        for (UserData userDatum : USER_DATA) {
-            if (userDatum.login.equals(login) && userDatum.password.equals(password)) {
-                return userDatum.username;
+    public synchronized String getUsernameByLoginAndPassword(String login, String password) {
+        String username = null;
+        try {
+            connect();
+            String sql = "SELECT * FROM usersChat WHERE login = ?";
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, login);
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.getString(3).equals(password)) {
+                username = resultSet.getString(4);
+            }
+            return username;
+        }  catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            try {
+                if (connection != null) {
+                    System.out.println("Подключение к базе закрыто !");
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         }
-        return null;
     }
 
     @Override
