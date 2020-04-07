@@ -3,11 +3,13 @@ package homework7.server;
 import homework7.server.auth.AuthService;
 import homework7.server.auth.BaseAuthService;
 import homework7.server.client.ClientHandler;
+import homework8.client.Command;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class NetworkServer {
@@ -50,7 +52,7 @@ public class NetworkServer {
         return authService;
     }
 
-    public synchronized void broadcastMessage(String message, ClientHandler owner) throws IOException {
+    public synchronized void broadcastMessage(Command message, ClientHandler owner) throws IOException {
         for (ClientHandler client : clients) {
             if (client != owner) {
                 client.sendMessage(message);
@@ -58,18 +60,30 @@ public class NetworkServer {
         }
     }
 
-    public synchronized void subscribe(ClientHandler clientHundler) {
+    public synchronized void subscribe(ClientHandler clientHundler) throws IOException {
         clients.add(clientHundler);
+        List<String> users = getAllUsernames();
+        broadcastMessage(Command.updateUsersListCommand(users), null);
     }
 
-    public synchronized void unsubscribe(ClientHandler clientHundler) {
+    public synchronized void unsubscribe(ClientHandler clientHundler) throws IOException {
         clients.remove(clientHundler);
+        List<String> users = getAllUsernames();
+        broadcastMessage(Command.updateUsersListCommand(users), null);
     }
 
-    public synchronized void sendMessage(String receiver, String message) throws IOException {
-        for (ClientHandler client : clients){
-            if(client.getNickname().equals(receiver)){
-                client.sendMessage(message);
+    private List<String> getAllUsernames() {
+        List<String> usernames = new LinkedList<>();
+        for (ClientHandler clientHandler : clients) {
+            usernames.add(clientHandler.getNickname());
+        }
+        return usernames;
+    }
+
+    public synchronized void sendMessage(String receiver, Command commandMessage) throws IOException {
+        for (ClientHandler client : clients) {
+            if (client.getNickname().equals(receiver)) {
+                client.sendMessage(commandMessage);
                 break;
             }
         }
