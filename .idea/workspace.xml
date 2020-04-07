@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44c83166-77dd-4743-b3d8-485fea5e974f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/AuthEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthServise.java" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthService.java" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHundler.java" afterPath="" />
-    </list>
+    <list default="true" id="44c83166-77dd-4743-b3d8-485fea5e974f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -485,8 +470,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -506,7 +490,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
