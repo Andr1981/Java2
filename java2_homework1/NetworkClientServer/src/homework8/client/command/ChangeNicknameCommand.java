@@ -1,23 +1,16 @@
 package homework8.client.command;
 
-import java.io.Serializable;
-
-public class AuthCommand implements Serializable {
+public class ChangeNicknameCommand {
     private final String login;
-    private final String password;
     private  String username;
 
-    public AuthCommand(String login, String password) {
+    public ChangeNicknameCommand(String login, String username) {
         this.login = login;
-        this.password = password;
+        this.username = username;
     }
 
     public String getLogin() {
         return login;
-    }
-
-    public String getPassword() {
-        return password;
     }
 
     public String getUsername() {

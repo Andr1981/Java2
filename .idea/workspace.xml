@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c3e2ba-ea5e-40f1-a3b5-55228f83d6c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java2_homework1/sqlite-jdbc-3.31.1.jar" afterDir="false" />
+    <list default="true" id="ba2f8ad1-9d46-47e4-b47b-78a61b515571" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/chatform/ClientChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/ChangeNicknameCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/AuthEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/AuthEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersChat.db" beforeDir="false" afterPath="$PROJECT_DIR$/usersChat.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ZyYpO3Tgu3GOOW0oCuxmeeW5ZT" />
+  <component name="ProjectId" id="1a5BHFyci6ITB3hHAPAehB5nL3Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,21 +40,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_Level2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mto_v\Desktop\Учеба\Java2\java2_homework1" />
+      <recent name="C:\Users\mto_v\Desktop\Учеба\Java2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkClient 3">
+  <component name="RunManager" selected="Application.NetworkClient 2">
     <configuration name="NetworkClient 2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework7.client.*" />
@@ -51,6 +68,7 @@
     <configuration name="NetworkClient 3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework7.client.*" />
@@ -64,6 +82,7 @@
     <configuration name="NetworkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework7.client.*" />
@@ -117,83 +136,84 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e1c3e2ba-ea5e-40f1-a3b5-55228f83d6c5" name="Default Changelist" comment="" />
-      <created>1585812982107</created>
+      <changelist id="ba2f8ad1-9d46-47e4-b47b-78a61b515571" name="Default Changelist" comment="" />
+      <created>1586015485682</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585812982107</updated>
+      <updated>1586015485682</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Project_Structure" timestamp="1585832329550">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586019599245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585832329550" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585916998016">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586019599245" />
+    <state x="471" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1586016033077">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585916998016" />
-    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1585832324976">
+    <state x="471" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1586016033077" />
+    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1586019111912">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585832324976" />
-    <state x="361" y="0" key="#sqlite-jdbc-3.31.1.jar" timestamp="1585832416667">
+    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586019111912" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1586016016250">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="361" y="0" key="#sqlite-jdbc-3.31.1.jar/0.0.1280.680@0.0.1280.680" timestamp="1585832416667" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1585837187809">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586016016250" />
+    <state width="1281" height="170" key="GridCell.Tab.0.bottom" timestamp="1586020142518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585837187809" />
-    <state width="1281" height="170" key="GridCell.Tab.0.bottom" timestamp="1585918559088">
+    <state width="1281" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
+    <state width="1281" height="170" key="GridCell.Tab.0.center" timestamp="1586020142518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585918559088" />
-    <state width="1281" height="170" key="GridCell.Tab.0.center" timestamp="1585918559087">
+    <state width="1281" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
+    <state width="1281" height="170" key="GridCell.Tab.0.left" timestamp="1586020142518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585918559087" />
-    <state width="1281" height="170" key="GridCell.Tab.0.left" timestamp="1585918559087">
+    <state width="1281" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
+    <state width="1281" height="170" key="GridCell.Tab.0.right" timestamp="1586020142518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585918559087" />
-    <state width="1281" height="170" key="GridCell.Tab.0.right" timestamp="1585918559087">
+    <state width="1281" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
+    <state width="1281" height="213" key="GridCell.Tab.1.bottom" timestamp="1586020142503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585918559087" />
-    <state width="1281" height="213" key="GridCell.Tab.1.bottom" timestamp="1585918559084">
+    <state width="1281" height="213" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586020142503" />
+    <state width="1281" height="213" key="GridCell.Tab.1.center" timestamp="1586020142503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="213" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585918559084" />
-    <state width="1281" height="213" key="GridCell.Tab.1.center" timestamp="1585918559084">
+    <state width="1281" height="213" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586020142503" />
+    <state width="1281" height="213" key="GridCell.Tab.1.left" timestamp="1586020142503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="213" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585918559084" />
-    <state width="1281" height="213" key="GridCell.Tab.1.left" timestamp="1585918559084">
+    <state width="1281" height="213" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586020142503" />
+    <state width="1281" height="213" key="GridCell.Tab.1.right" timestamp="1586020142503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="213" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585918559084" />
-    <state width="1281" height="213" key="GridCell.Tab.1.right" timestamp="1585918559084">
+    <state width="1281" height="213" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586020142503" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1586019115484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="213" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585918559084" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1585910845199">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586019115484" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586019997352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585910845199" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585836616572">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585836616572" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586019997352" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java</url>
+          <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
