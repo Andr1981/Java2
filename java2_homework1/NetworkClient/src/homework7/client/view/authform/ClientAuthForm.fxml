@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane focusTraversable="true" prefHeight="230.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homework7.client.view.authform.ClientAuthController">
+    <children>
+        <Label alignment="CENTER" layoutY="29.0" prefHeight="29.0" prefWidth="611.0" text="Введите логин и пароль" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="login" alignment="CENTER" layoutX="165.0" layoutY="64.0" prefHeight="25.0" prefWidth="270.0" promptText="введите логин" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="165.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="password" alignment="CENTER" layoutX="165.0" layoutY="120.0" prefHeight="25.0" prefWidth="270.0" promptText="введите пароль" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="165.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </PasswordField>
+        <Button fx:id="authButton" layoutX="165.0" layoutY="175.0" mnemonicParsing="false" onAction="#authButtonOnAction" prefHeight="25.0" prefWidth="270.0" text="Подключиться" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="165.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <MenuBar prefHeight="25.0" prefWidth="500.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                    <items>
+                        <MenuItem fx:id="closeButton" mnemonicParsing="false" onAction="#closeBtnOnAction" text="Закрыть" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

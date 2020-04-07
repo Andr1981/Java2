@@ -3,17 +3,20 @@ package homework7.server;
 import homework7.server.auth.AuthService;
 import homework7.server.auth.BaseAuthService;
 import homework7.server.client.ClientHandler;
+import homework8.client.Command;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class NetworkServer {
 
-    private final int port;
-    private final List<ClientHandler> clients = new ArrayList<>();
+    private int port;
+    private final List<ClientHandler> clients = new CopyOnWriteArrayList<>();
     private final AuthService authService;
 
     public NetworkServer(int port) {
@@ -21,24 +24,24 @@ public class NetworkServer {
         this.authService = new BaseAuthService();
     }
 
-
     public void start() {
+
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Сервер был успешно запущен на порту " + port);
             authService.start();
             while (true) {
-                System.out.println("Ожидание клиентского подключения.......");
+                System.out.println("Ожидание клиентского подключения...");
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("Клиент подключился");
+                System.out.println("Клиент подключился...");
                 createClientHandler(clientSocket);
             }
-
         } catch (IOException e) {
-            System.out.println("Ошибка при работе сервера");
+            System.out.println("Ошибка при работе с сервером");
             e.printStackTrace();
         } finally {
             authService.stop();
         }
+
     }
 
     private void createClientHandler(Socket clientSocket) {
@@ -50,19 +53,48 @@ public class NetworkServer {
         return authService;
     }
 
-    public synchronized void broadcastMessage(String message, ClientHandler owner) throws IOException {
+    public synchronized void broadcastMessage(Command message, ClientHandler owner) throws IOException {
         for (ClientHandler client : clients) {
-            if (client != owner) {
+            if (client != owner)
                 client.sendMessage(message);
+        }
+
+    }
+
+    public synchronized void subscribe(ClientHandler clientHandler) throws IOException {
+        clients.add(clientHandler);
+        List<String> users = getAllUsernames();
+        broadcastMessage(Command.updateUsersListCommand(users), null);
+    }
+
+    public synchronized void unsubscribe(ClientHandler clientHandler) throws IOException {
+        clients.remove(clientHandler);
+        List<String> users = getAllUsernames();
+        broadcastMessage(Command.updateUsersListCommand(users), null);
+    }
+
+    public List<String> getAllUsernames() {
+        List<String> usernames = new LinkedList<>();
+        for (ClientHandler clientHandler : clients) {
+            usernames.add(clientHandler.getNickname());
+        }
+        return usernames;
+    }
+
+    public synchronized void sendMessage(String receiver, Command commandMessage) throws IOException {
+        for (ClientHandler client : clients) {
+            if (client.getNickname().equals(receiver)) {
+                client.sendMessage(commandMessage);
             }
         }
     }
 
-    public synchronized void subscribe(ClientHandler clientHundler) {
-        clients.add(clientHundler);
-    }
-
-    public synchronized void unsubscribe(ClientHandler clientHundler) {
-        clients.remove(clientHundler);
+    public boolean isNicknameBusy(String username) {
+        for (ClientHandler client : clients) {
+            if (client.getNickname().equals(username)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

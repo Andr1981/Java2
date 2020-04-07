@@ -1,48 +1,79 @@
 package homework7.server.auth;
 
+import java.sql.*;
 import java.util.List;
 import java.util.Objects;
 
 public class BaseAuthService implements AuthService {
 
-    private static class UserData {
-        private String login;
-        private String password;
-        private String username;
-
-        public UserData(String login, String password, String username) {
-            this.login = login;
-            this.password = password;
-            this.username = username;
-        }
-
-    }
-
-    private static final List<UserData> USER_DATA = List.of(
-            new UserData("log1", "pass1", "user1"),
-            new UserData("log2", "pass2", "user2"),
-            new UserData("log3", "pass3", "user3")
-
-    );
-
     @Override
-    public String getUsernameByLoginAndPassword(String login, String password) {
-        for (UserData userDatum : USER_DATA) {
-            if (userDatum.login.equals(login) && userDatum.password.equals(password)) {
-                return userDatum.username;
+    public String getUserNameByLoginAndPassword(String login, String password) {
+
+        Connection connection = null;
+        try {
+            Class.forName("org.sqlite.JDBC");
+            connection = DriverManager.getConnection("jdbc:sqlite:usersChat.db");
+            PreparedStatement statement = connection.prepareStatement("SELECT username FROM logins where login = ? and password = ?;");
+            statement.setString(1, login);
+            statement.setString(2, password);
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                return resultSet.getString("username");
+            } else {
+                return null;
+            }
+        } catch (Exception e) {
+            System.out.println("Ошибка подключения к базе!");
+            e.printStackTrace();
+            return null;
+        } finally {
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+                System.out.println("Подключения к базе закрыто!");
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         }
-        return null;
     }
+
+    @Override
+    public boolean changeNickname(String login, String nickname) {
+        Connection connection = null;
+        try {
+            Class.forName("org.sqlite.JDBC");
+            connection = DriverManager.getConnection("jdbc:sqlite:usersChat.db");
+            PreparedStatement statement = connection.prepareStatement("UPDATE logins SET username = ? WHERE login = ?;");
+            statement.setString(1, nickname);
+            statement.setString(2, login);
+            if (statement.executeUpdate() != 0) return true;
+        } catch (Exception e) {
+            System.out.println("Ошибка подключения к базе!");
+            e.printStackTrace();
+            return false;
+        } finally {
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+                System.out.println("Подключения к базе закрыто!");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return false;
+    }
+
 
     @Override
     public void start() {
-        System.out.println("Сервер аутентификации запущен");
+        System.out.println("Сервис аутентификации запущен");
+
     }
 
     @Override
     public void stop() {
-        System.out.println("Сервер аутентификации остановлен");
-
+        System.out.println("Сервис аутентификации остановлен");
     }
 }
