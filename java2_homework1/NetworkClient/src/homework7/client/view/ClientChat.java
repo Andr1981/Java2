@@ -45,7 +45,7 @@ public class ClientChat extends JFrame {
 
         appendOwnMessage(message);
         if (usersList.getSelectedIndex() < 1) {
-            controller.sendMessage(message);
+            controller.sendMessageToAllUsers(message);
         } else {
             String username = usersList.getSelectedValue();
             controller.sendPrivateMessage(username, message);
@@ -64,6 +64,18 @@ public class ClientChat extends JFrame {
 
     private void appendOwnMessage(String message) {
         appendMessage("Я: " + message);
+    }
+
+    public void showError(String message) {
+        JOptionPane.showMessageDialog(this, "Failed to send message!");
+    }
+
+    public void updateUsers(List<String> users) {
+        SwingUtilities.invokeLater(() -> {
+            DefaultListModel<String> model = new DefaultListModel<>();
+            model.addAll(users);
+            usersList.setModel(model);
+        });
     }
 
 }

@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96239029-df26-4b19-8797-3b05bcb262ad" name="Default Changelist" comment="">
+    <list default="true" id="e4fda23a-22ff-4f66-88a8-d9985c16e366" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/BroadcastMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/BroadcastMessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/ErrorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/ErrorCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/MessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/MessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/PrivateMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/PrivateMessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/UpdateUsersListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/UpdateUsersListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Zhv3CuGeIHiOsidzXctZ4LA2UE" />
+  <component name="ProjectId" id="1ZnxjURVZUBby5cmYo4oKHwaUK0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,9 +29,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.NetworkClient 3">
-    <configuration name="NetworkClient 2" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.NetworkClient2">
+    <configuration name="NetworkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <extension name="coverage">
@@ -42,7 +45,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkClient 3" type="Application" factoryName="Application">
+    <configuration name="NetworkClient2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <extension name="coverage">
@@ -55,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkClient" type="Application" factoryName="Application" temporary="true">
+    <configuration name="NetworkClient3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <extension name="coverage">
@@ -82,8 +85,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NetworkClient 2" />
-      <item itemvalue="Application.NetworkClient 3" />
+      <item itemvalue="Application.NetworkClient2" />
+      <item itemvalue="Application.NetworkClient3" />
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
     </list>
@@ -111,75 +114,62 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96239029-df26-4b19-8797-3b05bcb262ad" name="Default Changelist" comment="" />
-      <created>1585303939943</created>
+      <changelist id="e4fda23a-22ff-4f66-88a8-d9985c16e366" name="Default Changelist" comment="" />
+      <created>1585488794088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585303939943</updated>
+      <updated>1585488794088</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585386937107">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585492461129">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386937107" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585383582014">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585492461129" />
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1585559114038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585383582014" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585391216420">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585559114038" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1585559114038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585391216420">
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585559114038" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1585559114038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585391216420">
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585559114038" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1585559114038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585391216420">
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585559114038" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585492631775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585391216420" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585492631775" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585492631775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585492631775" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585492631775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585337150377">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585492631775" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585492631775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585337150377">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585337150377" />
-    <state x="521" y="135" key="UIDesigner.ListEditorDialog" timestamp="1585386239844">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="521" y="135" key="UIDesigner.ListEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386239844" />
-    <state x="218" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585308212660">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="218" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1585308212660" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1585388918741">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585388918741" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585492631775" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="17" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java</url>
+          <line>93</line>
+          <properties class="homework7.client.model.NetworkService" method="sendCommand">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
