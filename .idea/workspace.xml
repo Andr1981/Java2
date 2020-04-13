@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2f8ad1-9d46-47e4-b47b-78a61b515571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/chatform/ClientChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/ChangeNicknameCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/NetworkClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/AuthEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/AuthEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/AuthDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/view/ClientChat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClientServer/src/homework8/client/command/AuthCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersChat.db" beforeDir="false" afterPath="$PROJECT_DIR$/usersChat.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
