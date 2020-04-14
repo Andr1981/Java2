@@ -12,6 +12,8 @@ import java.io.*;
 import java.net.Socket;
 import java.sql.*;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ClientHandler {
     private final NetworkServer networkServer;
@@ -23,6 +25,8 @@ public class ClientHandler {
     private ObjectOutputStream out;
 
     private String nickname;
+
+    private ExecutorService executorService = Executors.newFixedThreadPool(1);
 
     public ClientHandler(NetworkServer networkServer, Socket socket) {
         this.networkServer = networkServer;
@@ -42,16 +46,20 @@ public class ClientHandler {
             out = new ObjectOutputStream(socket.getOutputStream());
             in = new ObjectInputStream(socket.getInputStream());
 
-            new Thread(() -> {
+            executorService.execute(() -> {
                 try {
                     authentication();
-                    readMessages();
                 } catch (IOException e) {
                     System.out.println("Соединение с клиентом " + nickname + " было закрыто!");
+                    try {
+                        readMessages();
+                    } catch (IOException e1) {
+                        System.out.println("Соединение с клиентом " + nickname + " было закрыто!");
+                    }
                 } finally {
                     closeConnection();
                 }
-            }).start();
+            });
 
             new Thread(() -> {
                 try {
@@ -72,6 +80,7 @@ public class ClientHandler {
         try {
             networkServer.unsubscribe(this);
             clientSocket.close();
+            executorService.shutdown();
         } catch (IOException e) {
             e.printStackTrace();
         }
