@@ -3,8 +3,11 @@ package homework7.server.auth;
 import java.sql.*;
 import java.util.List;
 import java.util.Objects;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class BaseAuthService implements AuthService {
+    private static final Logger LOGGER = Logger.getLogger(BaseAuthService.class.getName());
 
     @Override
     public String getUserNameByLoginAndPassword(String login, String password) {
@@ -23,17 +26,16 @@ public class BaseAuthService implements AuthService {
                 return null;
             }
         } catch (Exception e) {
-            System.out.println("Ошибка подключения к базе!");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Ошибка подключения к базе ", e);
             return null;
         } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-                System.out.println("Подключения к базе закрыто!");
+                LOGGER.log(Level.INFO, "Подключения к базе закрыто!");
             } catch (SQLException e) {
-                e.printStackTrace();
+                LOGGER.log(Level.SEVERE, "Ошибка при работе с базой ", e);
             }
         }
     }
@@ -49,17 +51,16 @@ public class BaseAuthService implements AuthService {
             statement.setString(2, login);
             if (statement.executeUpdate() != 0) return true;
         } catch (Exception e) {
-            System.out.println("Ошибка подключения к базе!");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Ошибка подключения к базе!", e);
             return false;
         } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-                System.out.println("Подключения к базе закрыто!");
+                LOGGER.log(Level.INFO, "Подключения к базе закрыто!");
             } catch (SQLException e) {
-                e.printStackTrace();
+                LOGGER.log(Level.SEVERE, "Ошибка при работе с базой", e);
             }
         }
         return false;
@@ -68,12 +69,12 @@ public class BaseAuthService implements AuthService {
 
     @Override
     public void start() {
-        System.out.println("Сервис аутентификации запущен");
+        LOGGER.log(Level.WARNING, "Сервис аутентификации запущен");
 
     }
 
     @Override
     public void stop() {
-        System.out.println("Сервис аутентификации остановлен");
+        LOGGER.log(Level.WARNING, "Сервис аутентификации остановлен");
     }
 }
