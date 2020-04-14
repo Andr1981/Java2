@@ -21,7 +21,7 @@ public class ClientHandler {
     private static final Logger LOGGER = Logger.getLogger(ClientHandler.class.getName());
     private final NetworkServer networkServer;
     private final Socket clientSocket;
-    private static final int TIMEOUT = 30;
+    private static final int TIMEOUT = 300;
     private static final String MASK_WORD = "***";
 
     private ObjectInputStream in;
@@ -53,7 +53,7 @@ public class ClientHandler {
                 try {
                     authentication();
                 } catch (IOException e) {
-                    LOGGER.log(Level.WARNING, "Соединение с клиентом " + nickname + " было закрыто!");
+                    LOGGER.log(Level.WARNING, "Соединение с клиентом " + nickname + " было закрыто!",e);
                     try {
                         readMessages();
                     } catch (IOException e1) {

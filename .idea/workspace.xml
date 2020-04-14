@@ -1,47 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84150c6d-d144-4076-864b-bf2807d39402" name="Default Changelist" comment="">
+    <list default="true" id="5f5d321c-35c9-425d-91fe-49c4f4120df2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history_user1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user1.txt" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user3.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/java2_homework1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Competition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/MainTestDrive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Obstacle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Participant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/RunTrack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework1/Wall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework2/MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework2/MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework2/TaskException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework3/MyCollections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework3/PhoneBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework3/PhoneBookMainTestDrive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java2_homework1/homework4/ChatWindow.class" beforeDir="false" />
-=======
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/log_server.log.lck" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="176" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1aTf67hLFCBk8b0ZG2oDjIjWvkS" />
+  <component name="ProjectId" id="1aWvghTVpSL1m45ZVCFpBiowbkt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,18 +30,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-<<<<<<< Updated upstream
-=======
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mto_v\Desktop\Учеба\Java2" />
-    </key>
-  </component>
->>>>>>> Stashed changes
   <component name="RunManager" selected="Application.NetworkClient">
-    <configuration name="NetworkClient 2" type="Application" factoryName="Application">
+    <configuration name="NetworkClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
@@ -106,7 +74,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NetworkClient 2" />
+      <item itemvalue="Application.NetworkClient (1)" />
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
     </list>
@@ -134,130 +102,85 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84150c6d-d144-4076-864b-bf2807d39402" name="Default Changelist" comment="" />
-      <created>1586764327120</created>
+      <changelist id="5f5d321c-35c9-425d-91fe-49c4f4120df2" name="Default Changelist" comment="" />
+      <created>1586864276836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586764327120</updated>
+      <updated>1586864276836</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586796746488">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586865732238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586796746488" />
-    <state x="382" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586795774712">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586865732238" />
+    <state x="382" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586864421458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="382" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586795774712" />
-    <state x="371" y="82" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1586854600031">
+    <state x="382" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586864421458" />
+    <state x="471" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1586864502061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="82" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586854600031" />
-    <state x="348" y="81" key="FileChooserDialogImpl" timestamp="1586853838995">
+    <state x="471" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1586864502061" />
+    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1586865491730">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="348" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586853838995" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1586854742901">
+    <state x="371" y="95" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586865491730" />
+    <state width="430" height="466" key="DebuggerActiveHint" timestamp="1586867346456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-<<<<<<< Updated upstream
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586854742901" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1586854742901">
+    <state width="430" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1586867346456" />
+    <state x="348" y="81" key="FileChooserDialogImpl" timestamp="1586865478158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586854742901" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1586854742901">
+    <state x="348" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586865478158" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1586873384764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586854742901" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1586854742901">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586873384764" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1586873384764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586854742901" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586797862980">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586873384764" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1586873384764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586797862980" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586797862980">
-=======
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586016016250" />
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586863305987">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586873384764" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1586873384764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586863305987" />
-    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586863305987">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586873384764" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586873384765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586863305987" />
-    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586863305987">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586873384765" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586873384765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586863305987" />
-    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586863305987">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586873384765" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586873384764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586863305987" />
-    <state width="1281" height="213" key="GridCell.Tab.1.bottom" timestamp="1586020142503">
->>>>>>> Stashed changes
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586873384764" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586873384765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586797862980" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586797862980">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586873384765" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1586872309252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586797862980" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586797862980">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586797862980" />
-    <state x="121" y="50" key="MergeDialog" timestamp="1586851418428">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586851418428" />
-    <state x="354" y="56" key="MultipleFileMergeDialog" timestamp="1586851421524">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-<<<<<<< Updated upstream
-    <state x="354" y="56" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586851421524" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1586854605210">
-=======
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586019115484" />
-    <state x="424" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586863166979">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="424" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1586863166979" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586019997352">
->>>>>>> Stashed changes
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586854605210" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586872309252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-<<<<<<< Updated upstream
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/auth/BaseAuthService.java</url>
-          <line>14</line>
-=======
-          <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java</url>
-          <line>26</line>
->>>>>>> Stashed changes
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/java2_homework1/NetworkClient/src/homework7/client/model/NetworkService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Java2$NetworkClient_2.ic" NAME="NetworkClient 2 Coverage Results" MODIFIED="1586851218894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>homework7.client.*</FILTER>
-    </SUITE>
   </component>
 </project>
