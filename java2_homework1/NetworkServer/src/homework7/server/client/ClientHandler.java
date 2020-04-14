@@ -52,19 +52,16 @@ public class ClientHandler {
             executorService.execute(() -> {
                 try {
                     authentication();
+                    readMessages();
                 } catch (IOException e) {
-                    LOGGER.log(Level.WARNING, "Соединение с клиентом " + nickname + " было закрыто!",e);
-                    try {
-                        readMessages();
-                    } catch (IOException e1) {
-                        System.out.println("Соединение с клиентом " + nickname + " было закрыто!");
-                    }
+                    LOGGER.log(Level.WARNING, "Соединение с клиентом " + nickname + " было закрыто!", e);
+                                    
                 } finally {
                     closeConnection();
                 }
             });
 
-            new Thread(() -> {
+            executorService.execute(() -> {
                 try {
                     closeByTimeout();
                 } catch (InterruptedException e) {
@@ -72,7 +69,7 @@ public class ClientHandler {
                 } catch (IOException e) {
                     LOGGER.log(Level.WARNING, "Соединение с клиентом " + nickname + " было закрыто!");
                 }
-            }).start();
+            });
 
         } catch (IOException e) {
             e.printStackTrace();
