@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ba2f8ad1-9d46-47e4-b47b-78a61b515571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,7 @@
       <recent name="C:\Users\mto_v\Desktop\Учеба\Java2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkClient 2">
+  <component name="RunManager" selected="Application.NetworkClient 3">
     <configuration name="NetworkClient 2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
@@ -141,22 +144,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586016016250" />
-    <state width="1281" height="170" key="GridCell.Tab.0.bottom" timestamp="1586020142518">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1586863814769">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
-    <state width="1281" height="170" key="GridCell.Tab.0.center" timestamp="1586020142518">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586863814769" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1586863814768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
-    <state width="1281" height="170" key="GridCell.Tab.0.left" timestamp="1586020142518">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586863814768" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1586863814768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
-    <state width="1281" height="170" key="GridCell.Tab.0.right" timestamp="1586020142518">
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586863814768" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1586863814768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586020142518" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586863814768" />
     <state width="1281" height="213" key="GridCell.Tab.1.bottom" timestamp="1586020142503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -192,7 +195,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/NetworkServer.java</url>
-          <line>28</line>
+          <line>26</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
