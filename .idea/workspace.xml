@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5f5d321c-35c9-425d-91fe-49c4f4120df2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_user3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_user3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java2_homework1/NetworkServer/src/homework7/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +29,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.NetworkClient (1)">
+  <component name="RunManager" selected="Application.NetworkClient (2)">
     <configuration name="NetworkClient (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
+      <module name="NetworkClient" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework7.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkClient (2)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework7.client.NetworkClient" />
       <module name="NetworkClient" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
@@ -70,6 +87,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient (1)" />
+      <item itemvalue="Application.NetworkClient (2)" />
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
     </list>
@@ -97,28 +115,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="f21580b1-b298-4fdb-938d-499cc22781fa" name="Default" comment="" />
-      <created>1586251359359</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1586251359359</updated>
-=======
       <changelist id="5f5d321c-35c9-425d-91fe-49c4f4120df2" name="Default Changelist" comment="" />
       <created>1586864276836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586864276836</updated>
->>>>>>> homework6_java3
     </task>
     <servers />
   </component>
-<<<<<<< HEAD
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586865732238">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587028243299">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586865732238" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587028243299" />
     <state x="382" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586864421458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -139,22 +148,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586865478158" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1586880285085">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587028401692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586880285085" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1586880285084">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587028401692" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587028401692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586880285084" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1586880285084">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587028401692" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587028401692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586880285084" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1586880285084">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587028401692" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587028401692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586880285084" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587028401692" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586873384765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
