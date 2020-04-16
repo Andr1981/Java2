@@ -88,6 +88,7 @@ public class NetworkService {
 
                 } catch (IOException e) {
                     System.out.println("Поток чтения был прерван!");
+                    e.printStackTrace();
                     return;
                 } catch (ClassNotFoundException e) {
                     e.printStackTrace();

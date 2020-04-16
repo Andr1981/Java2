@@ -12,9 +12,11 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class NetworkServer {
-
+    private static final Logger LOGGER = Logger.getLogger(NetworkServer.class.getName());
     private int port;
     private final List<ClientHandler> clients = new CopyOnWriteArrayList<>();
     private final AuthService authService;
@@ -27,17 +29,17 @@ public class NetworkServer {
     public void start() {
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
-            System.out.println("Сервер был успешно запущен на порту " + port);
+            LOGGER.log(Level.WARNING, "Сервер был успешно запущен на порту " + port);
             authService.start();
             while (true) {
-                System.out.println("Ожидание клиентского подключения...");
+                LOGGER.log(Level.INFO, "Ожидание клиентского подключения...");
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("Клиент подключился...");
+                LOGGER.log(Level.WARNING, "Клиент подключился...");
+
                 createClientHandler(clientSocket);
             }
         } catch (IOException e) {
-            System.out.println("Ошибка при работе с сервером");
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Ошибка при работе с сервером", e);
         } finally {
             authService.stop();
         }
